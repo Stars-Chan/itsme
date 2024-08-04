@@ -57,7 +57,7 @@ export default function Page() {
           <h2>我是谁</h2>
           <p>
             Hi~ 我是{NICKNAME}
-            ，一名前端开发工程师，2020年大专毕业，喜欢 Coding 和打游戏
+            ，一名前端开发工程师，喜欢 AI
           </p>
         </div>
 
