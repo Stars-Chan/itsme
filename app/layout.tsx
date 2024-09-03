@@ -31,11 +31,7 @@ export default function RootLayout({ children }: React.PropsWithChildren) {
   return (
     <html suppressHydrationWarning lang="zh-CN">
       <head>
-        <link
-          rel="icon"
-          type="image/svg+xml"
-          href="/images/fuxiaochen-dark.svg"
-        />
+        <link rel="icon" type="image/svg+xml" href="/images/stars.svg" />
         {/* Google Search Console 验证 */}
         <meta
           name="google-site-verification"

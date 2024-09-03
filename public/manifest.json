@@ -1,9 +1,9 @@
 {
-  "name": "付小晨",
-  "short_name": "付小晨",
+  "name": "星辰君",
+  "short_name": "星辰君",
   "icons": [
     {
-      "src": "/images/fuxiaochen-dark.svg",
+      "src": "/images/stars.svg",
       "sizes": "48x48 72x72 96x96 128x128 256x256 512x512",
       "type": "image/svg+xml",
       "purpose": "Blog"

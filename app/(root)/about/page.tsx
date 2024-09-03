@@ -12,15 +12,12 @@ import {
   IconSkillDebianDark,
   IconSkillDebianLight,
   IconSkillDocker,
-  IconSkillFigmaDark,
-  IconSkillFigmaLight,
   IconSkillHTML,
   IconSkillJavaScript,
   IconSkillMysqlDark,
   IconSkillMysqlLight,
   IconSkillNextjsDark,
   IconSkillNextjsLight,
-  IconSkillNginx,
   IconSkillNodejsDark,
   IconSkillNodejsLight,
   IconSkillPrisma,
@@ -57,7 +54,7 @@ export default function Page() {
           <h2>我是谁</h2>
           <p>
             Hi~ 我是{NICKNAME}
-            ，一名前端开发工程师，喜欢 AI
+            ，一名前端开发工程师，喜欢 AI，各种捣腾，偶尔写写文章。
           </p>
         </div>
 
@@ -118,7 +115,7 @@ export default function Page() {
                 <IconSkillNodejsDark className="mx-1 translate-y-0.5 dark:hidden" />
                 <IconSkillNodejsLight className="mx-1 hidden translate-y-0.5 dark:inline-block" />
               </>
-              Node.js，能简单 CRUD 水平
+              Nest.js，较熟练使用
             </li>
             <li>
               <>
@@ -131,7 +128,7 @@ export default function Page() {
                 <IconSkillMysqlDark className="mx-1 translate-y-0.5 dark:hidden" />
                 <IconSkillMysqlLight className="mx-1 hidden translate-y-0.5 dark:inline-block" />
               </>
-              MySQL 搞全栈开发
+              MySQL/MongoDb 搞全栈开发
             </li>
           </ul>
         </div>
@@ -159,62 +156,25 @@ export default function Page() {
             </li>
             <li>
               <IconSkillDocker className="mx-1 translate-y-0.5" />
-              Docker +
-              <span className="line-through">Docker Desktop 太卡了</span>+
-              Orbstack，Docker 本地起数据库服务是真的方便
+              Docker + Orbstack，Docker 本地起数据库服务是真的方便
             </li>
             <li>
-              使用
-              <span className="line-through">
-                <IconSkillNginx className="mx-1 translate-y-0.5" />
-                NGINX （相比 Caddy 配置有点麻烦）
-              </span>
-              、 Caddy （配置超简单，无需手动配置 HTTPS 证书），反向代理 + 配置
-              HTTPS + 开启 HTTP2
-            </li>
-            <li>
-              <>
-                <IconSkillFigmaDark className="mx-1 translate-y-0.5 dark:hidden" />
-                <IconSkillFigmaLight className="mx-1 hidden translate-y-0.5 dark:inline-block" />
-              </>
-              Figma，会一点，用来画画图标，制作博客封面非常方便
+              使用 Caddy （配置超简单，无需手动配置 HTTPS 证书），反向代理 +
+              配置 HTTPS + 开启 HTTP2
             </li>
             <li>
               熟练使用 <IconLogoGoogle className="mx-1 translate-y-0.5" />
               Google/
               <IconLogoBing className="mx-1 translate-y-0.5" />
-              Bing 搜索
-              <span className="ml-1 line-through">百度（浪费生命）</span> +
+              Bing 搜索 +
               <IconBrandGithub className="mx-1 translate-y-0.5" />
               GitHub +
               <>
                 <IconSkillStackoverflowDark className="mx-1 translate-y-0.5 dark:hidden" />
                 <IconSkillStackoverflowLight className="mx-1 hidden translate-y-0.5 dark:inline-block" />
               </>
-              Stack Overflow + Chat GPT 解决遇到的各种问题，复制粘贴我最行 🙋
+              Stack Overflow + Chat GPT 解决遇到的各种问题
             </li>
-          </ul>
-        </div>
-
-        <div
-          className="animate-fade-up animate-ease-in-out"
-          style={{
-            animationDelay: `${getDelay()}ms`,
-          }}
-        >
-          <h2>我的设备</h2>
-          <ul>
-            <li>
-              MacBook Pro 14-inch M3 Max：64G + 2TB，
-              <span className="line-through">
-                赚的几个窝囊费全花电子产品上去了
-              </span>
-              🙃
-            </li>
-            <li>微星（msi） GP76：64G + 1TB + RTX3070</li>
-            <li>LG 27英寸 4K</li>
-            <li>键盘：珂芝（KIZI）K75</li>
-            <li>鼠标：罗技（G）PRO 2代</li>
           </ul>
         </div>
 
