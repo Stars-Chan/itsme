@@ -29,7 +29,7 @@ export const BEI_AN_NUMBER = "粤ICP备2024298870号";
 export const BEI_AN_LINK = "https://beian.miit.gov.cn";
 
 /** 公安备案号 */
-export const GONG_AN_NUMBER = "审核中";
+export const GONG_AN_NUMBER = "粤公网安备44030002004603号";
 
 /** 公安网站链接 */
 export const GONG_AN_LINK = "http://www.beian.gov.cn/portal/registerSystemInfo";
