@@ -32,4 +32,5 @@ export const BEI_AN_LINK = "https://beian.miit.gov.cn";
 export const GONG_AN_NUMBER = "粤公网安备44030002004603号";
 
 /** 公安网站链接 */
-export const GONG_AN_LINK = "http://www.beian.gov.cn/portal/registerSystemInfo";
+export const GONG_AN_LINK =
+  "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030002004603";

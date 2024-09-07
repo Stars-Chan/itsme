@@ -10,5 +10,11 @@ export const metadata: Metadata = {
 };
 
 export default function Layout({ children }: React.PropsWithChildren) {
-  return <>{children}</>;
+  return (
+    <>
+      <p>555</p>
+      {children}
+      <p>1221</p>
+    </>
+  );
 }
